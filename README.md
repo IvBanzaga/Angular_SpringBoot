@@ -1,4 +1,4 @@
-# Sistema de Gestión de Inventario - Angular Frontend
+# 📦 Sistema de Gestión de Inventario - Angular Frontend
 
 ![Angular](https://img.shields.io/badge/Angular-20.2+-DD0031?style=for-the-badge&logo=angular&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.9+-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
@@ -9,25 +9,7 @@
 
 ---
 
-## Índice
-
-- [Introducción](#introducción)
-- [Requisitos Previos](#requisitos-previos)
-- [Instalación y Ejecución](#instalación-y-ejecución)
-- [Comandos Utilizados](#comandos-utilizados)
-- [Estructura del Proyecto](#estructura-del-proyecto)
-- [Componentes Creados](#componentes-creados)
-- [Servicios](#servicios)
-- [Páginas y Views](#páginas-y-views)
-- [Rutas de la Aplicación](#rutas-de-la-aplicación)
-- [Tecnologías Utilizadas](#tecnologías-utilizadas)
-- [Screenshots](#screenshots)
-- [Futuras Mejoras](#futuras-mejoras)
-- [Autor](#autor)
-
----
-
-## Introducción
+## 🚀 Introducción
 
 El **Sistema de Gestión de Inventario** es una aplicación web desarrollada en Angular 20 que permite la administración completa de inventarios empresariales. Esta solución frontend proporciona una interfaz intuitiva y moderna para gestionar productos, con operaciones CRUD completas y navegación fluida.
 
@@ -50,7 +32,7 @@ Esta aplicación digitaliza y optimiza los procesos de gestión de inventario tr
 
 ---
 
-## Requisitos Previos
+## 🛠️ Requisitos Previos
 
 Antes de ejecutar el proyecto, asegúrate de tener instalado:
 
@@ -71,7 +53,7 @@ Antes de ejecutar el proyecto, asegúrate de tener instalado:
 
 ---
 
-## Instalación y Ejecución
+## 📦 Instalación y Ejecución
 
 ### 1. 📥 Clonar el Repositorio
 
@@ -125,7 +107,7 @@ ng build --watch --configuration development
 
 ---
 
-## Comandos Utilizados
+## 📝 Comandos Utilizados
 
 Durante el desarrollo del proyecto se utilizaron los siguientes comandos de Angular CLI:
 
@@ -165,7 +147,7 @@ npm install @types/bootstrap --save-dev
 
 ---
 
-## Estructura del Proyecto
+## 🗂️ Estructura del Proyecto
 
 ```
 src/
@@ -194,7 +176,7 @@ src/
 
 ---
 
-## Componentes Creados
+## 🧩 Componentes Creados
 
 ### 📦 Componentes de Gestión de Productos
 
@@ -220,7 +202,7 @@ src/
 
 ---
 
-## Servicios
+## 🔧 Servicios
 
 ### 🌐 Servicios de API
 
@@ -269,7 +251,7 @@ export class ProductoService {
 
 ---
 
-## Páginas y Views
+## 📄 Páginas y Views
 
 ### 🏠 Páginas Principales
 
@@ -290,7 +272,7 @@ export class ProductoService {
 
 ---
 
-## Rutas de la Aplicación
+## 🗺️ Rutas de la Aplicación
 
 ```typescript
 // app.routes.ts
@@ -331,7 +313,7 @@ export const routes: Routes = [
 
 ---
 
-## Tecnologías Utilizadas
+## 🧪 Tecnologías Utilizadas
 
 ### 🔧 Framework y Lenguajes Base
 
@@ -370,7 +352,7 @@ export const routes: Routes = [
 
 ---
 
-## Screenshots
+## 📸 Screenshots
 
 ### 🏠 Página Principal (Home)
 *[Aquí se incluiría una imagen del dashboard principal con navegación y accesos rápidos]*
@@ -401,7 +383,7 @@ export const routes: Routes = [
 
 ---
 
-## Futuras Mejoras
+## 🌟 Futuras Mejoras
 
 ### 🚀 Funcionalidades Planificadas
 
@@ -434,15 +416,15 @@ export const routes: Routes = [
 
 ---
 
-## Autor
+## 👤 Autor
 
-### **Iván Bazaga**
+### 👨‍💻 **Iván Bazaga**
 
 🚀 Desarrollador Frontend especializado en Angular y ecosistemas JavaScript
 
 Estudiante de Angular Intermedio con pasión por crear aplicaciones web modernas y eficientes. Este proyecto representa la aplicación práctica de conceptos avanzados de Angular incluyendo routing, servicios, formularios reactivos y arquitectura de componentes.
 
-### 📞 Información de Contacto
+### ☎️ Información de Contacto
 
 | Plataforma | Enlace | Descripción |
 |------------|--------|-------------|
@@ -451,7 +433,7 @@ Estudiante de Angular Intermedio con pasión por crear aplicaciones web modernas
 | Email | [ivan.cpweb@gmail.com](mailto:ivan.cpweb@gmail.com) | Contacto directo para oportunidades |
 | Portfolio | [Ivancodelab.com](https://Ivancodelab.com) | Showcase de proyectos y skills |
 
-### 🛠️ Stack Tecnológico de Especialización
+### 🧰 Stack Tecnológico de Especialización
 
 ```
 Frontend: Angular 20 • TypeScript • RxJS • Bootstrap 5 • HTML5 • CSS3
@@ -461,7 +443,7 @@ Learning: NgRx • PWA • Node.js • Express • MongoDB
 
 ---
 
-### 📄 Licencia
+### 📜 Licencia
 
 Este proyecto está bajo la licencia MIT. Ver el archivo [LICENSE](LICENSE) para más detalles.
 
