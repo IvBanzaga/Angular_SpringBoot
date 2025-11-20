@@ -1,0 +1,52 @@
+<div class="container text-center">
+  <!-- TODO: Tabla de productos con Bootstrap -->
+  <!-- TODO: Añadir botón de buscar producto, introduciendo el ID del producto a buscar -->
+  <!-- TODO: Filtros -->
+  <div class="mb-3">
+    <input type="text" [(ngModel)]="filtroNombre" (input)="buscarProducto(producto.id_producto)"
+      placeholder="Filtrar por nombre" class="form-control d-inline-block w-auto me-2" />
+    <input type="number" [(ngModel)]="producto.id_producto" placeholder="ID del producto"
+      class="form-control d-inline-block w-auto me-2" />
+    <button (click)="buscarProducto(producto.id_producto)" class="btn btn-primary btn-sm">Buscar</button>
+  </div>
+  <table class="table table-striped table-hover align-middle">
+    <thead class="table-dark">
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Nombre</th>
+        <th scope="col">Descripción</th>
+        <th scope="col">Precio</th>
+        <th scope="col">Cantidad</th>
+        <th scope="col">Imagen</th>
+        <th scope="col" class="text-center">Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- TODO: Iterar sobre lista de productos -->
+      @for (producto of productosPaginados; track producto.id_producto) {
+      <tr>
+        <td scope="row">{{ producto.id_producto }}</td>
+        <td scope="row">{{ producto.nombre }}</td>
+        <td scope="row">{{ producto.descripcion }}</td>
+        <td scope="row">{{ producto.precio }}</td>
+        <td scope="row">{{ producto.cantidad }}</td>
+        <!-- TODO: Mostrar imagen del producto -->
+        <td scope="row"><img [src]="producto.imagen_url" alt="{{ producto.nombre }}" class="img-fluid" width="100"
+            height="100" /></td>
+        <td scope="row" class="text-center">
+          <button (click)="editarProducto(producto.id_producto)" class="btn btn-warning btn-sm me-3">Editar</button>
+          <button (click)="eliminarProducto(producto.id_producto)" class="btn btn-danger btn-sm me-3">Eliminar</button>
+        </td>
+      </tr>
+      }
+    </tbody>
+  </table>
+
+  <!-- TODO: Controles de paginación -->
+  <div class="d-flex justify-content-center mt-3">
+    <button (click)="prevPage()" [disabled]="currentPage === 1" class="btn btn-secondary btn-sm me-2">Anterior</button>
+    <span class="align-self-center me-2">Página {{ currentPage }} de {{ totalPages }}</span>
+    <button (click)="nextPage()" [disabled]="currentPage === totalPages"
+      class="btn btn-secondary btn-sm">Siguiente</button>
+  </div>
+</div>
